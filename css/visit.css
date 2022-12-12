@@ -150,6 +150,10 @@
     margin: auto;
 }
 
+.our-facilities h2 {
+    grid-column-end: span 3;
+}
+
 @media (min-width: 2000px) {
     .banner {
         height: 600px;
@@ -167,6 +171,10 @@
         max-width: 500px;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
+    }
+
+    .our-facilities h2 {
+        grid-column-end: span 2;
     }
     
     .map-and-text-wrap {
@@ -186,6 +194,10 @@
 }
 
 @media (max-width: 850px) {
+
+    .our-facilities h2 {
+        grid-column-end: span 1;
+    }
 
     .banner h1 {
         font-size: 32px;
