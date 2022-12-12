@@ -1,0 +1,484 @@
+.hero {
+    background-image: url("../images/herobanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 803px;
+    display: flex;
+    align-items: center;
+}
+
+
+.hero-content {
+    margin-left: 10%;
+}
+
+h1 {
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.index-row-container {
+    background-color: var(--grey-50);
+}
+
+
+/* INFO CARD RELATED */
+
+.index-row {
+    display: flex;
+    padding: 5rem 2rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.wrapper {
+    display: flex;
+    gap: 4rem;
+}
+
+.index-row-text {
+    max-width: 400px;
+}
+
+
+.index-row-text p {
+    margin-top: 2rem;
+}
+
+.section-link {
+    margin-top: 2rem;
+}
+
+.arrow-icon {
+    transition: 0.5s;
+}
+
+.section-link a {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-weight: 600;
+}
+
+.exhibition-link a {
+    color: var(--blue);
+}
+
+.events-link a {
+    color: var(--green);
+}
+
+.clubs-link a {
+    color: var(--orange);
+}
+
+.section-link a:hover .arrow-icon {
+    margin-left: 2rem;
+}
+
+.events-text {
+    order: 2;
+}
+
+
+/* INFO CARD */
+
+.events-description {
+    margin-top: 1rem;
+}
+
+.btn-label {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    z-index: 1;
+}
+
+.event-wrapper {
+    position: relative;
+}
+
+.card-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.info-card-wrapper,
+.info-card-image,
+.info-card-top,
+.info-card-bottom {
+    width: 330px;
+}
+
+.info-card-image,
+.info-card-top {
+    height: 220px;
+}
+
+.young-star-club-card {
+    background-image: url("../images/vrpainting.jpg");
+}
+
+.holidays-club-card {
+    background-image: url("../images/kids.jpg")
+}
+
+.night-museum-card {
+    background-image: url("../images/dinosaur.jpg");
+}
+
+.aeronautics-card {
+    background-image: url("../images/aeronautics.jpg");
+}
+
+.evolution-card {
+    background-image: url("../images/skull.jpg");
+}
+
+.robotics-card {
+    background-image: url("../images/robot.jpg");
+}
+
+.info-card-image {
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.info-card-wrapper:hover .info-card-image {
+    scale: 1.2;
+}
+
+
+.info-card-curve {
+    bottom: 0;
+    position: absolute;
+}
+
+.info-card-top {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.info-card-bottom-exhibitions {
+    background-color: var(--blue);
+    padding: 1rem;
+}
+
+.info-card-bottom-events {
+    background-color: var(--green);
+    padding: 1rem;
+}
+
+.info-card-bottom-clubs {
+    background-color: var(--orange);
+    padding: 1rem;
+}
+
+.info-card-bottom h2,
+.info-card-bottom-clubs h2 {
+    margin-bottom: 1rem;
+}
+
+.button-wrapper {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile-card-container {
+    display: none;
+}
+
+.hideme {
+    display: none;
+}
+
+
+/* EXPLORE TOGETHER */
+
+.blue-row-wrapper {
+    background-color: var(--green);
+    background-image: url(../images/repeating_space-opacity.png);
+    background-size: 30rem;
+}
+
+.blue-row {
+    padding: 10rem 2rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.blue-row h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.blue-row p {
+    max-width: 300px;
+}
+
+.blue-paragraphs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+/* TESTIMONIALS */
+
+.testimonials-section {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 5rem 0rem;
+}
+
+.testimonial {
+    background-color: var(--grey-50);
+    max-width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.testimonial-text {
+    padding: 1rem;
+}
+
+.papername,
+.orange-quote {
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.papername {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+/* DONATE */
+
+.donate-section {
+    background-color: var(--orange);
+    position: relative;
+}
+
+
+.donate-wrapper {
+    padding: 10rem 2rem; 
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.donate-section h2 {
+    max-width: 490px;
+}
+
+.donate-section button a {
+    color: var(--grey-900);
+}
+
+
+@media (min-width: 1400px) {
+    .hero {
+        background-size: 100%;
+        background-position: center top 30%;
+    }
+}
+
+@media (min-width: 850px) {
+    header {
+        position: absolute;
+        width: 100%;
+        background-color: rgba(32, 32, 32, 0.5);
+    }
+
+    .blue-row-wrapper {
+        background-attachment: fixed;
+    }
+
+    .hero-content {
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .hero {
+        height: 1103px;
+    }
+}
+
+
+@media (max-width: 1080px) {
+
+    .donate-wrapper {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .donate-section {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .donate-icon {
+        display: none;
+       }
+
+    h1 {
+        max-width: 400px;
+    }
+
+   .index-row {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+   }
+
+   .wrapper {
+    flex-direction: column;
+   }
+
+   .index-row-text {
+    max-width: 600px;
+   }
+
+   .events-text {
+    order: 0;
+   }
+   
+}
+
+@media (max-width: 850px) {
+
+   .donate-wrapper {
+    padding: 2rem 5%;
+    gap: 2rem;
+    align-items: flex-start;
+    margin: 0;
+   }
+
+   
+
+    .testimonials-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 5%;
+    }
+
+    .testimonial {
+        max-width: 400px;
+    }
+
+    .blue-row h2 {
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .blue-row {
+        padding: 2rem 5%;
+    }
+
+    .blue-paragraphs {
+        flex-direction: column;
+    }
+
+    .blue-row p {
+        max-width: 500px;
+    }
+    
+    .card-arrow-icon {
+        min-width: 34px;
+        min-height: 34px;
+    }
+
+    .hideme {
+        display: block;
+    }
+
+    .hero {
+        background-image: url("../images/herobanner-mobile.jpg");
+        height: 400px;
+    }
+
+    .hero-content {
+        margin-left: 5%;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 1rem;
+    }
+
+    .mobile-card-container h2 {
+        font-size: 18px;
+        max-width: 250px;
+    }
+    
+
+    h3 {
+        font-size: 16px;
+        margin-bottom: 2rem;
+    }
+
+    .mobile-card-container {
+        display: flex;
+        background-color: var(--blue);
+    }
+
+    .events-cards-mobile {
+        background-color: var(--green);
+    }
+
+    .clubs-cards-mobile {
+        background-color: var(--orange);
+    }
+
+    .mobile-card-text-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .info-card-mobile {
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .index-row {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .info-card-wrapper {
+        display: none;
+    }
+
+    .wrapper {
+        gap: 1rem;
+    }
+}

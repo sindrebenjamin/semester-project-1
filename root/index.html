@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Community Science Museum</title>
+    <meta
+      name="description"
+      content="Welcome to Community Science Museum. Come visit and interact with over a thousand exhibitions for free."
+    />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/00254567e3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <div class="logo">
+          <svg
+            class="logo-icon"
+            width="57"
+            height="45"
+            viewBox="0 0 57 45"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M56.3241 6.91694C55.0251 4.73989 51.5296 2.70035 42.2003 4.96906C38.8368 2.49477 34.8283 0.980528 30.626 0.596796C26.4237 0.213064 22.1944 0.975076 18.4143 2.79705C14.6341 4.61903 11.4532 7.42863 9.22947 10.9096C7.00579 14.3905 5.82768 18.4046 5.82775 22.5C5.83438 23.4188 5.88956 24.3366 5.99308 25.25C-0.690963 31.9415 -0.59649 35.906 0.67891 38.0831C1.5528 39.5497 3.48951 41.0163 7.71723 41.0163C9.74585 40.9788 11.7647 40.733 13.74 40.283L14.8028 40.0309C18.1662 42.5052 22.1747 44.0195 26.377 44.4032C30.5793 44.7869 34.8086 44.0249 38.5888 42.2029C42.3689 40.381 45.5499 37.5714 47.7736 34.0904C49.9973 30.6095 51.1754 26.5954 51.1753 22.5C51.1687 21.5812 51.1135 20.6634 51.01 19.75L51.7421 18.9938C57.7176 12.6918 57.5287 8.95649 56.3241 6.91694ZM28.5015 4.16699C32.7938 4.17335 36.9566 5.59398 40.3079 8.19614C43.6592 10.7983 46.0003 14.4277 46.9476 18.4897C43.1214 22.0188 38.0198 25.6395 32.2805 28.8478C26.5412 32.0561 20.7783 34.554 15.7239 35.9748C12.9193 33.4805 10.9572 30.2219 10.095 26.6266C9.23286 23.0312 9.51081 19.267 10.8925 15.8276C12.2741 12.3882 14.6949 9.43435 17.8373 7.35346C20.9797 5.27258 24.697 4.16185 28.5015 4.16699ZM3.96188 36.2498C3.60761 35.6539 3.79655 34.531 4.50511 33.179C5.20896 31.9005 6.05651 30.7016 7.03229 29.604C7.98955 32.3218 9.49048 34.8295 11.449 36.9831C7.03229 37.7393 4.52873 37.2122 3.96188 36.2498ZM28.5015 40.833C25.3756 40.8331 22.299 40.077 19.5501 38.633C24.1793 37.0747 29.1865 34.806 34.17 32.0332C38.8445 29.4364 43.2639 26.4294 47.3727 23.05C47.2254 27.8123 45.1731 32.3319 41.6505 35.6513C38.128 38.9707 33.412 40.8292 28.5015 40.833ZM45.5541 8.01692C47.0316 7.73733 48.5372 7.622 50.0416 7.67318C51.6004 7.76484 52.6869 8.15442 53.0412 8.75024C53.608 9.71272 52.8286 12.0731 49.9708 15.396C49.0135 12.6782 47.5126 10.1705 45.5541 8.01692Z"
+              fill="white"
+            />
+          </svg>
+          <div class="logo-text">
+            <div class="community">COMMUNITY</div>
+            <div class="science-museum">SCIENCE MUSEUM</div>
+          </div>
+        </div>
+      </a>
+
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox"><i class="fas fa-bars"></i></label>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="pages/visit.html">Visit</a>
+        <a href="pages/explore.html">Explore</a>
+        <a href="pages/get-involved.html">Get Involved</a>
+      </nav>
+      <button class="btn btn-secondary">
+        <a href="pages/get-involved.html">Donate Now</a>
+      </button>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>A fun experience for the whole family</h1>
+        <h3>Visit over a thousand different exhibitions</h3>
+        <button class="btn btn-primary">
+          <a href="pages/explore.html">Explore</a>
+        </button>
+      </div>
+    </section>
+
+    <section class="index-row">
+      <div class="wrapper">
+        <div class="index-row-text">
+          <h2><u class="underline-blue">Exhibitions</u></h2>
+          <p>
+            We believe science should not be confined to the textbook, but
+            brought to life through exhibits. This is why we have over 1000
+            different exhibits on the many varied subjects of science to
+            explore.
+          </p>
+          <div class="section-link exhibition-link">
+            <a href="pages/explore.html"
+              >View all exhibitions
+              <svg
+                class="arrow-icon"
+                width="12"
+                height="20"
+                viewBox="0 0 12 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.15002 19.1C0.900024 18.85 0.775024 18.554 0.775024 18.212C0.775024 17.8707 0.900024 17.575 1.15002 17.325L8.47502 10L1.12502 2.65C0.891691 2.41667 0.775024 2.125 0.775024 1.775C0.775024 1.425 0.900024 1.125 1.15002 0.875C1.40002 0.625 1.69602 0.5 2.03802 0.5C2.37936 0.5 2.67502 0.625 2.92502 0.875L11.325 9.3C11.425 9.4 11.496 9.50833 11.538 9.625C11.5794 9.74167 11.6 9.86667 11.6 10C11.6 10.1333 11.5794 10.2583 11.538 10.375C11.496 10.4917 11.425 10.6 11.325 10.7L2.90002 19.125C2.66669 19.3583 2.37936 19.475 2.03802 19.475C1.69602 19.475 1.40002 19.35 1.15002 19.1Z"
+                  fill="#007E9A"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="info-card-wrapper">
+            <a href="pages/explore.html">
+              <div class="info-card-top">
+                <div
+                  class="info-card-image evolution-card"
+                  title="Evolution Exhibitions"
+                ></div>
+                <svg
+                  class="info-card-curve"
+                  width="330"
+                  height="50"
+                  viewBox="0 0 330 50"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M225.5 36C225.5 36 47.5 36 -7 0V60.5H334.5V23C319.5 32.8333 225.5 36 225.5 36Z"
+                    fill="#007E9A"
+                  />
+                </svg>
+              </div>
+              <div class="info-card-bottom-exhibitions">
+                <h2 class="white-text">Evolution</h2>
+                <p class="white-text">
+                  Discover the origins of life on this planet and how the
+                  species we know today have evolved over time.
+                </p>
+                <div class="button-wrapper">
+                  <button class="btn-small btn-info">More Info</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="info-card-wrapper">
+            <a href="pages/explore.html">
+              <div class="info-card-top">
+                <div
+                  class="info-card-image robotics-card"
+                  title="Robotics and AI Exhibitions"
+                ></div>
+                <svg
+                  class="info-card-curve"
+                  width="330"
+                  height="50"
+                  viewBox="0 0 330 50"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M225.5 36C225.5 36 47.5 36 -7 0V60.5H334.5V23C319.5 32.8333 225.5 36 225.5 36Z"
+                    fill="#007E9A"
+                  />
+                </svg>
+              </div>
+              <div class="info-card-bottom-exhibitions">
+                <h2 class="white-text">Robotics and AI</h2>
+                <p class="white-text">
+                  The information revolution is here and robotics and artificial
+                  intelligence are the science of the future.
+                </p>
+                <div class="button-wrapper">
+                  <button class="btn-small btn-info">More Info</button>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a class="hideme" href="pages/explore.html">
+          <div class="mobile-card-container">
+            <div class="evolution-card info-card-mobile"></div>
+            <div class="mobile-card-text-wrapper">
+              <h2 class="white-text">Evolution</h2>
+              <svg
+                class="card-arrow-icon"
+                width="34"
+                height="34"
+                viewBox="0 0 34 34"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.1668 17C31.1668 9.18004 24.8202 2.83337 17.0002 2.83337C9.18016 2.83337 2.8335 9.18004 2.8335 17C2.8335 24.82 9.18016 31.1667 17.0002 31.1667C24.8202 31.1667 31.1668 24.82 31.1668 17ZM17.0002 18.4167H11.3335V15.5834H17.0002V11.3334L22.6668 17L17.0002 22.6667V18.4167Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+        <a class="hideme" href="pages/explore.html">
+          <div class="mobile-card-container">
+            <div class="robotics-card info-card-mobile"></div>
+            <div class="mobile-card-text-wrapper">
+              <h2 class="white-text">Robotics and AI</h2>
+              <svg
+                class="card-arrow-icon"
+                width="34"
+                height="34"
+                viewBox="0 0 34 34"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.1668 17C31.1668 9.18004 24.8202 2.83337 17.0002 2.83337C9.18016 2.83337 2.8335 9.18004 2.8335 17C2.8335 24.82 9.18016 31.1667 17.0002 31.1667C24.8202 31.1667 31.1668 24.82 31.1668 17ZM17.0002 18.4167H11.3335V15.5834H17.0002V11.3334L22.6668 17L17.0002 22.6667V18.4167Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <div class="index-row-container">
+      <section class="index-row">
+        <div class="wrapper">
+          <div class="index-row-text events-text">
+            <h2><u class="underline-green">Events</u></h2>
+            <p>
+              Check out our special events and exhibitions. Find guided tours,
+              lectures, guests and much more in our event calendar.
+            </p>
+            <div class="section-link events-link">
+              <a href="pages/explore.html"
+                >View all events
+                <svg
+                  class="arrow-icon"
+                  width="12"
+                  height="20"
+                  viewBox="0 0 12 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.15002 19.1C0.900024 18.85 0.775024 18.554 0.775024 18.212C0.775024 17.8707 0.900024 17.575 1.15002 17.325L8.47502 10L1.12502 2.65C0.891691 2.41667 0.775024 2.125 0.775024 1.775C0.775024 1.425 0.900024 1.125 1.15002 0.875C1.40002 0.625 1.69602 0.5 2.03802 0.5C2.37936 0.5 2.67502 0.625 2.92502 0.875L11.325 9.3C11.425 9.4 11.496 9.50833 11.538 9.625C11.5794 9.74167 11.6 9.86667 11.6 10C11.6 10.1333 11.5794 10.2583 11.538 10.375C11.496 10.4917 11.425 10.6 11.325 10.7L2.90002 19.125C2.66669 19.3583 2.37936 19.475 2.03802 19.475C1.69602 19.475 1.40002 19.35 1.15002 19.1Z"
+                    fill="var(--green)"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="info-card-wrapper">
+              <a href="pages/explore.html">
+                <div class="info-card-top">
+                  <button class="btn-small btn-label">
+                    <svg
+                      width="15"
+                      height="16"
+                      viewBox="0 0 15 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.58333 15.8333C1.14792 15.8333 0.775042 15.6784 0.464708 15.3686C0.154903 15.0583 0 14.6854 0 14.25V3.16667C0 2.73125 0.154903 2.35864 0.464708 2.04883C0.775042 1.7385 1.14792 1.58333 1.58333 1.58333H2.375V0H3.95833V1.58333H10.2917V0H11.875V1.58333H12.6667C13.1021 1.58333 13.475 1.7385 13.7853 2.04883C14.0951 2.35864 14.25 2.73125 14.25 3.16667V14.25C14.25 14.6854 14.0951 15.0583 13.7853 15.3686C13.475 15.6784 13.1021 15.8333 12.6667 15.8333H1.58333ZM1.58333 14.25H12.6667V6.33333H1.58333V14.25Z"
+                        fill="var(--green)"
+                      />
+                    </svg>
+                    18 NOV
+                  </button>
+                  <div
+                    class="info-card-image night-museum-card"
+                    title="Tyrannosaurus display"
+                  ></div>
+
+                  <svg
+                    class="info-card-curve"
+                    width="330"
+                    height="50"
+                    viewBox="0 0 330 50"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M225.5 36C225.5 36 47.5 36 -7 0V60.5H334.5V23C319.5 32.8333 225.5 36 225.5 36Z"
+                      fill="var(--green)"
+                    />
+                  </svg>
+                </div>
+                <div class="info-card-bottom-events">
+                  <h2 class="white-text">Night in the Museum</h2>
+                  <p class="white-text events-description">
+                    Get ready for an exciting night in the museum as you sleep
+                    over beside dinosaurs and science displays.
+                  </p>
+                  <div class="button-wrapper">
+                    <button class="btn-small btn-info">More Info</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="info-card-wrapper">
+              <a href="pages/explore.html">
+                <div class="info-card-top">
+                  <button class="btn-small btn-label">
+                    <svg
+                      width="15"
+                      height="16"
+                      viewBox="0 0 15 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.58333 15.8333C1.14792 15.8333 0.775042 15.6784 0.464708 15.3686C0.154903 15.0583 0 14.6854 0 14.25V3.16667C0 2.73125 0.154903 2.35864 0.464708 2.04883C0.775042 1.7385 1.14792 1.58333 1.58333 1.58333H2.375V0H3.95833V1.58333H10.2917V0H11.875V1.58333H12.6667C13.1021 1.58333 13.475 1.7385 13.7853 2.04883C14.0951 2.35864 14.25 2.73125 14.25 3.16667V14.25C14.25 14.6854 14.0951 15.0583 13.7853 15.3686C13.475 15.6784 13.1021 15.8333 12.6667 15.8333H1.58333ZM1.58333 14.25H12.6667V6.33333H1.58333V14.25Z"
+                        fill="var(--green)"
+                      />
+                    </svg>
+                    20 NOV
+                  </button>
+                  <div
+                    class="info-card-image aeronautics-card"
+                    title="Aircraft cockpit"
+                  ></div>
+                  <svg
+                    class="info-card-curve"
+                    width="330"
+                    height="50"
+                    viewBox="0 0 330 50"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M225.5 36C225.5 36 47.5 36 -7 0V60.5H334.5V23C319.5 32.8333 225.5 36 225.5 36Z"
+                      fill="var(--green)"
+                    />
+                  </svg>
+                </div>
+                <div class="info-card-bottom-events">
+                  <h2 class="white-text">Professor of Aeronautics</h2>
+                  <p class="white-text events-description">
+                    Prof Sheila Widnal will be delivering 3 lectures on the
+                    development of aeronautics.
+                  </p>
+                  <div class="button-wrapper">
+                    <button class="btn-small btn-info">More Info</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <a class="hideme" href="pages/explore.html">
+            <div class="mobile-card-container events-cards-mobile">
+              <div class="night-museum-card info-card-mobile"></div>
+              <div class="mobile-card-text-wrapper">
+                <h2 class="white-text">Night in the Museum</h2>
+                <svg
+                  class="card-arrow-icon"
+                  width="34"
+                  height="34"
+                  viewBox="0 0 34 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.1668 17C31.1668 9.18004 24.8202 2.83337 17.0002 2.83337C9.18016 2.83337 2.8335 9.18004 2.8335 17C2.8335 24.82 9.18016 31.1667 17.0002 31.1667C24.8202 31.1667 31.1668 24.82 31.1668 17ZM17.0002 18.4167H11.3335V15.5834H17.0002V11.3334L22.6668 17L17.0002 22.6667V18.4167Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+          </a>
+          <a class="hideme" href="pages/explore.html">
+            <div class="mobile-card-container events-cards-mobile">
+              <div class="aeronautics-card info-card-mobile"></div>
+              <div class="mobile-card-text-wrapper">
+                <h2 class="white-text">Professor of Aeronautics</h2>
+                <svg
+                  class="card-arrow-icon"
+                  width="34"
+                  height="34"
+                  viewBox="0 0 34 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.1668 17C31.1668 9.18004 24.8202 2.83337 17.0002 2.83337C9.18016 2.83337 2.8335 9.18004 2.8335 17C2.8335 24.82 9.18016 31.1667 17.0002 31.1667C24.8202 31.1667 31.1668 24.82 31.1668 17ZM17.0002 18.4167H11.3335V15.5834H17.0002V11.3334L22.6668 17L17.0002 22.6667V18.4167Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <section class="index-row">
+      <div class="wrapper">
+        <div class="index-row-text">
+          <h2><u class="underline-orange">Clubs</u></h2>
+          <p>
+            Are you a young person looking to learn more about science? Consider
+            joining one of our clubs!
+          </p>
+          <div class="section-link clubs-link">
+            <a href="pages/explore.html"
+              >View all clubs
+              <svg
+                class="arrow-icon"
+                width="12"
+                height="20"
+                viewBox="0 0 12 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.15002 19.1C0.900024 18.85 0.775024 18.554 0.775024 18.212C0.775024 17.8707 0.900024 17.575 1.15002 17.325L8.47502 10L1.12502 2.65C0.891691 2.41667 0.775024 2.125 0.775024 1.775C0.775024 1.425 0.900024 1.125 1.15002 0.875C1.40002 0.625 1.69602 0.5 2.03802 0.5C2.37936 0.5 2.67502 0.625 2.92502 0.875L11.325 9.3C11.425 9.4 11.496 9.50833 11.538 9.625C11.5794 9.74167 11.6 9.86667 11.6 10C11.6 10.1333 11.5794 10.2583 11.538 10.375C11.496 10.4917 11.425 10.6 11.325 10.7L2.90002 19.125C2.66669 19.3583 2.37936 19.475 2.03802 19.475C1.69602 19.475 1.40002 19.35 1.15002 19.1Z"
+                  fill="var(--orange)"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="info-card-wrapper">
+            <a href="pages/explore.html">
+              <div class="info-card-top">
+                <div
+                  class="info-card-image young-star-club-card"
+                  title="Evolution Exhibitions"
+                ></div>
+                <svg
+                  class="info-card-curve"
+                  width="330"
+                  height="50"
+                  viewBox="0 0 330 50"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M225.5 36C225.5 36 47.5 36 -7 0V60.5H334.5V23C319.5 32.8333 225.5 36 225.5 36Z"
+                    fill="var(--orange)"
+                  />
+                </svg>
+              </div>
+              <div class="info-card-bottom-clubs">
+                <h2 class="white-text">Young Star Club</h2>
+                <p class="white-text">
+                  Explore and experiment with our team of experts. Come on down
+                  to our museum, there’s plenty to see and do.
+                </p>
+                <div class="button-wrapper">
+                  <button class="btn-small btn-info">More Info</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="info-card-wrapper">
+            <a href="pages/explore.html">
+              <div class="info-card-top">
+                <div
+                  class="info-card-image holidays-club-card"
+                  title="Robotics and AI Exhibitions"
+                ></div>
+                <svg
+                  class="info-card-curve"
+                  width="330"
+                  height="50"
+                  viewBox="0 0 330 50"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M225.5 36C225.5 36 47.5 36 -7 0V60.5H334.5V23C319.5 32.8333 225.5 36 225.5 36Z"
+                    fill="var(--orange)"
+                  />
+                </svg>
+              </div>
+              <div class="info-card-bottom-clubs">
+                <h2 class="white-text">Holidays Club</h2>
+                <p class="white-text">
+                  Join other children your age to go on a journey of discovery.
+                  Each holiday we pick a new theme to explore.
+                </p>
+                <div class="button-wrapper">
+                  <button class="btn-small btn-info">More Info</button>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a class="hideme" href="pages/explore.html">
+          <div class="mobile-card-container clubs-cards-mobile">
+            <div class="young-star-club-card info-card-mobile"></div>
+            <div class="mobile-card-text-wrapper">
+              <h2 class="white-text">Young Stars Club</h2>
+              <svg
+                class="card-arrow-icon"
+                width="34"
+                height="34"
+                viewBox="0 0 34 34"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.1668 17C31.1668 9.18004 24.8202 2.83337 17.0002 2.83337C9.18016 2.83337 2.8335 9.18004 2.8335 17C2.8335 24.82 9.18016 31.1667 17.0002 31.1667C24.8202 31.1667 31.1668 24.82 31.1668 17ZM17.0002 18.4167H11.3335V15.5834H17.0002V11.3334L22.6668 17L17.0002 22.6667V18.4167Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+        <a class="hideme" href="pages/explore.html">
+          <div class="mobile-card-container clubs-cards-mobile">
+            <div class="holidays-club-card info-card-mobile"></div>
+            <div class="mobile-card-text-wrapper">
+              <h2 class="white-text">Holidays Club</h2>
+              <svg
+                class="card-arrow-icon"
+                width="34"
+                height="34"
+                viewBox="0 0 34 34"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.1668 17C31.1668 9.18004 24.8202 2.83337 17.0002 2.83337C9.18016 2.83337 2.8335 9.18004 2.8335 17C2.8335 24.82 9.18016 31.1667 17.0002 31.1667C24.8202 31.1667 31.1668 24.82 31.1668 17ZM17.0002 18.4167H11.3335V15.5834H17.0002V11.3334L22.6668 17L17.0002 22.6667V18.4167Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <div class="blue-row-wrapper">
+      <section class="blue-row">
+        <h2 class="white-text"><u>Explore Together</u></h2>
+        <div class="blue-paragraphs">
+          <p class="white-text">
+            Over the course of human history, science has developed from our
+            early understanding of fire, wind, water, and earth to exploring
+            everything from galaxies far away to the very building blocks of
+            life itself.
+          </p>
+          <p class="white-text">
+            The aim of our museum is to create a space where everyone can
+            experience the wonders of our discoveries and perhaps even ignite a
+            lifelong passion to continue the exploration of the world around us.
+          </p>
+        </div>
+      </section>
+    </div>
+    <section class="testimonials-section">
+      <div class="testimonial">
+        <p class="testimonial-text">
+          <span class="orange-quote">"</span>
+          Lorem ipsum dolor sit amet consectetur. Vitae nisl orci purus
+          facilisis nulla. Volutpat elit vitae arcu quam magna quisque.
+          <span class="orange-quote">"</span>
+        </p>
+        <p class="papername">Aftenposten</p>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial-text">
+          <span class="orange-quote">"</span>
+          Lorem ipsum dolor sit amet consectetur. Vitae nisl orci purus
+          facilisis nulla. Volutpat elit vitae arcu quam magna quisque.
+          <span class="orange-quote">"</span>
+        </p>
+        <p class="papername">VG</p>
+      </div>
+      <div class="testimonial">
+        <p class="testimonial-text">
+          <span class="orange-quote">"</span>
+          Lorem ipsum dolor sit amet consectetur. Vitae nisl orci purus
+          facilisis nulla. Volutpat elit vitae arcu quam magna quisque.
+          <span class="orange-quote">"</span>
+        </p>
+        <p class="papername">Fædrelandsvennen</p>
+      </div>
+    </section>
+    <section class="donate-section">
+      <div class="donate-wrapper">
+        <h2 class="white-text">
+          Help make Community Science Museum accesible to everyone
+        </h2>
+        <svg
+          class="donate-icon"
+          width="131"
+          height="125"
+          viewBox="0 0 131 125"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.0998 125H76.1098C79.8896 125.002 83.6249 124.182 87.0589 122.595C90.4928 121.008 93.5437 118.693 96.0018 115.809L129.419 76.6513C130.119 75.8328 130.608 74.854 130.842 73.8011C131.077 72.7482 131.05 71.6535 130.764 70.6136C130.478 69.5736 129.941 68.6203 129.202 67.8375C128.463 67.0548 127.543 66.4667 126.524 66.125L113.634 61.8092C110.519 60.7921 107.202 60.5619 103.977 61.1391C100.751 61.7163 97.7177 63.0831 95.1438 65.1185L74.2823 81.875L70.2411 73.75C68.076 69.3703 64.7333 65.687 60.5913 63.1173C56.4494 60.5477 51.6738 59.1943 46.8055 59.2106H13.0998C5.87525 59.2106 0 65.1119 0 72.3684V111.842C0 119.099 5.87525 125 13.0998 125ZM13.0998 72.3684H46.8055C51.8031 72.3684 56.2898 75.1513 58.5233 79.6382L61.4511 85.5263H32.7495V98.6842H72.1405C73.1483 98.6708 74.1392 98.4231 75.0356 97.9605L75.0552 97.954L75.0814 97.9408H75.1011L75.1142 97.9342H75.1404L75.1469 97.9276C75.2059 97.9474 75.1666 97.9211 75.1666 97.9211C75.2321 97.9211 75.1797 97.9145 75.1797 97.9145H75.1862L75.1993 97.9079L75.219 97.9013L75.2321 97.8947L75.2452 97.8882L75.2648 97.8816L75.2779 97.875C75.2976 97.875 75.2845 97.8684 75.291 97.8684L75.3107 97.8553L75.3238 97.8487L75.3369 97.8421L75.3565 97.8355L75.3696 97.829H75.3762L75.3893 97.8224H75.3958L75.4089 97.8158L75.422 97.8092C75.481 97.8027 75.4417 97.8026 75.4417 97.8026L75.4548 97.7961C75.7072 97.643 75.948 97.4715 76.1753 97.2829L103.331 75.4606C105.047 74.0921 107.412 73.6645 109.488 74.3619L113.136 75.5856L86.0656 107.316C84.8204 108.736 83.2888 109.874 81.5723 110.654C79.8559 111.435 77.9939 111.84 76.1098 111.842H13.0998V72.3684V72.3684ZM91.6985 6.18796e-05H91.5872C90.5195 0.0132198 84.998 0.25664 78.5987 4.63822C72.3698 0.375061 66.9792 0.0329561 65.7085 0.00664035L65.512 6.18796e-05H65.4858C60.2394 6.18796e-05 55.3008 2.05927 51.6066 5.77638C47.8994 9.50664 45.8493 14.4606 45.8493 19.7369C45.8493 25.0132 47.8994 29.9672 51.4887 33.579L73.8501 57.1711C74.4653 57.8126 75.2031 58.3228 76.0193 58.671C76.8355 59.0193 77.7133 59.1985 78.6001 59.1979C79.4869 59.1972 80.3645 59.0168 81.1802 58.6674C81.9959 58.3181 82.7331 57.8069 83.3474 57.1645L105.591 33.6908C109.305 29.9672 111.348 25.0132 111.348 19.7369C111.348 14.4606 109.298 9.50664 105.597 5.78295C103.779 3.94444 101.615 2.48663 99.2314 1.49398C96.8479 0.501324 94.2919 -0.00645171 91.7116 6.18796e-05H91.6985ZM98.2484 19.7369C98.2484 21.4935 97.5672 23.1448 96.2114 24.5066L78.5987 43.0921L60.8682 24.3882C59.6302 23.1448 58.949 21.4935 58.949 19.7369C58.949 17.9803 59.6302 16.329 60.8747 15.079C62.0592 13.8688 63.672 13.1783 65.3614 13.1579C65.5251 13.1645 68.6494 13.3685 72.3501 16.3487C72.8807 16.7764 73.4178 17.2632 73.968 17.8093L78.5987 22.4606L83.2295 17.8093C83.7797 17.2632 84.3168 16.7764 84.8473 16.3487C88.3122 13.5527 91.24 13.204 91.7378 13.1645C92.5915 13.1644 93.4368 13.334 94.2249 13.6638C95.0129 13.9935 95.7282 14.4767 96.3293 15.0856C97.5672 16.329 98.2484 17.9803 98.2484 19.7369Z"
+            fill="white"
+            fill-opacity="0.3"
+          />
+        </svg>
+        <button class="btn btn-simple">
+          <a href="pages/get-involved.html">Donate Now</a>
+        </button>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-top">
+          <div class="newsletter-wrapper">
+            <h2 class="white-text">
+              Never miss out on exciting events and exclusive exhibits
+            </h2>
+            <form class="newsletter" action="index.html">
+              <input
+                type="email"
+                name="email"
+                class="newsletter-input"
+                placeholder="Join our newsletter"
+              />
+              <input
+                type="submit"
+                class="btn btn-primary white-text sign-up-btn"
+                value="Sign Up"
+              />
+            </form>
+          </div>
+          <svg
+            class="newsletter-icon"
+            width="173"
+            height="176"
+            viewBox="0 0 173 176"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_198_564)">
+              <path
+                d="M173.219 47.9301C173.219 18.8041 155.84 1.78125 126.526 1.78125C106.599 1.78125 44.3605 22.5591 32.1013 26.7158C11.4941 32.3178 -0.21875 50.3004 -0.21875 74.2984V120.45L78.8485 133.92V171.921L102.716 175.219L119.919 158.736V122.846L173.219 90.7807V47.9301ZM5.20117 74.2984C5.20117 47.1467 21.0216 30.277 46.4793 30.277C74.0327 30.277 91.0903 56.5499 91.0903 80.8948V130.509L5.20117 115.877V74.2984ZM84.2684 167.2V134.845L96.5102 136.93L97.2965 136.455V169.001L84.2684 167.2ZM138.604 32.4334L108.058 44.0046L108.084 94.6368L100.684 98.279V19.1741L138.624 6.13742L138.604 32.4334Z"
+                fill="white"
+              />
+              <path
+                d="M21.7674 85.6152L17.761 62.3081L10.7368 61.3628L10.4824 90.2777L14.9831 90.8877L15.1595 71.3239C15.1652 70.7631 15.1652 69.974 15.1652 68.9594C15.1595 67.9448 15.1652 67.1643 15.171 66.6122L19.2988 91.4629L23.9932 92.0988L28.5835 68.4246C28.5777 68.9738 28.5662 69.7543 28.5459 70.766C28.5286 71.7835 28.5141 72.564 28.5084 73.1248L28.3378 92.6885L32.8356 93.2927L33.09 64.3835L26.1438 63.4383L21.7674 85.6152ZM44.164 65.8664L35.6655 93.6713L40.7126 94.3535L42.3284 88.6214L50.8384 89.7661L52.3127 95.9174L57.5476 96.6256L49.6302 66.6093L44.164 65.8664ZM43.6841 83.8172L46.78 72.8444L49.5984 84.615L43.6841 83.8172ZM60.0884 96.9638L64.8811 97.6141L65.1355 68.6992L60.3428 68.0546L60.0884 96.9638ZM74.4809 69.9595L69.6535 69.3063L69.3991 98.2212L85.7601 100.424L85.8063 95.2265L74.2756 93.6713L74.4809 69.9595ZM41.6 56.3505C45.2451 55.966 49.3758 53.1245 49.7978 47.7104L52.8214 46.3171C56.0936 44.8111 53.414 38.3506 50.1447 39.8623L48.1935 40.7642C46.6355 38.2609 44.1466 36.7607 41.441 37.0469C40.2906 37.1683 39.0331 37.6423 38.1804 38.0152L38.1168 38.0441C37.5531 38.2956 37.1773 38.4922 37.1773 38.4922L37.1802 38.524C34.4428 40.1283 32.7316 43.756 33.1536 47.7971C33.6912 52.954 37.4722 56.7783 41.6 56.3505Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_198_564">
+                <rect width="173" height="176" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-middle">
+          <div class="footer-row">
+            <div class="footer-column">
+              <h4 class="white-text">Browse</h4>
+              <p><a href="index.html">Home</a></p>
+              <p><a href="pages/visit.html">Visit</a></p>
+              <p><a href="pages/explore.html">Explore</a></p>
+            </div>
+            <div class="footer-column">
+              <h4 class="white-text">Get Involved</h4>
+              <p><a href="pages/get-involved.html">Support Us</a></p>
+              <p><a href="pages/get-involved.html">Volunteer</a></p>
+              <p><a href="pages/get-involved.html">Internships</a></p>
+            </div>
+            <div class="footer-column">
+              <h4 class="white-text">Contact Us</h4>
+              <div class="contact-wrapper">
+                <div class="address-info">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 12C12.55 12 13.021 11.804 13.413 11.412C13.8043 11.0207 14 10.55 14 10C14 9.45 13.8043 8.979 13.413 8.587C13.021 8.19567 12.55 8 12 8C11.45 8 10.9793 8.19567 10.588 8.587C10.196 8.979 10 9.45 10 10C10 10.55 10.196 11.0207 10.588 11.412C10.9793 11.804 11.45 12 12 12ZM12 22C9.31667 19.7167 7.31267 17.5957 5.988 15.637C4.66267 13.679 4 11.8667 4 10.2C4 7.7 4.80433 5.70833 6.413 4.225C8.021 2.74167 9.88333 2 12 2C14.1167 2 15.979 2.74167 17.587 4.225C19.1957 5.70833 20 7.7 20 10.2C20 11.8667 19.3377 13.679 18.013 15.637C16.6877 17.5957 14.6833 19.7167 12 22Z"
+                      fill="#ACACAC"
+                    />
+                  </svg>
+                  <p class="contact-information">
+                    Gyldenløves gate 50, 4614 Kristiansand
+                  </p>
+                </div>
+                <div class="email-info">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4 20C3.45 20 2.97933 19.8043 2.588 19.413C2.196 19.021 2 18.55 2 18V6C2 5.45 2.196 4.97933 2.588 4.588C2.97933 4.196 3.45 4 4 4H20C20.55 4 21.021 4.196 21.413 4.588C21.8043 4.97933 22 5.45 22 6V18C22 18.55 21.8043 19.021 21.413 19.413C21.021 19.8043 20.55 20 20 20H4ZM12 13L20 8V6L12 11L4 6V8L12 13Z"
+                      fill="#ACACAC"
+                    />
+                  </svg>
+                  <p class="contact-information">info@csm.com</p>
+                </div>
+                <div class="phone-info">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7 23C6.45 23 5.97933 22.8043 5.588 22.413C5.196 22.021 5 21.55 5 21V3C5 2.45 5.196 1.979 5.588 1.587C5.97933 1.19567 6.45 1 7 1H17C17.55 1 18.021 1.19567 18.413 1.587C18.8043 1.979 19 2.45 19 3V21C19 21.55 18.8043 22.021 18.413 22.413C18.021 22.8043 17.55 23 17 23H7ZM12 20.5C12.2833 20.5 12.521 20.404 12.713 20.212C12.9043 20.0207 13 19.7833 13 19.5C13 19.2167 12.9043 18.9793 12.713 18.788C12.521 18.596 12.2833 18.5 12 18.5C11.7167 18.5 11.4793 18.596 11.288 18.788C11.096 18.9793 11 19.2167 11 19.5C11 19.7833 11.096 20.0207 11.288 20.212C11.4793 20.404 11.7167 20.5 12 20.5ZM7 16H17V6H7V16Z"
+                      fill="#ACACAC"
+                    />
+                  </svg>
+                  <p class="contact-information">+47 12 34 56 78</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-bottom">
+          <p class="white-text">
+            Community Science Museum © 2022 All rights reserved
+          </p>
+          <div class="social-icons">
+            <a href="https://facebook.com">
+              <div class="social-circle facebook-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.12 5.32003H17V2.14003C16.0897 2.04538 15.1751 1.99865 14.26 2.00003C11.54 2.00003 9.67999 3.66003 9.67999 6.70003V9.32003H6.60999V12.88H9.67999V22H13.36V12.88H16.42L16.88 9.32003H13.36V7.05003C13.36 6.00003 13.64 5.32003 15.12 5.32003Z"
+                    fill="#404040"
+                  />
+                </svg>
+              </div>
+            </a>
+            <a href="https://twitter.com">
+              <div class="social-circle twitter-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.46 6C21.69 6.35 20.86 6.58 20 6.69C20.88 6.16 21.56 5.32 21.88 4.31C21.05 4.81 20.13 5.16 19.16 5.36C18.37 4.5 17.26 4 16 4C13.65 4 11.73 5.92 11.73 8.29C11.73 8.63 11.77 8.96 11.84 9.27C8.28004 9.09 5.11004 7.38 3.00004 4.79C2.63004 5.42 2.42004 6.16 2.42004 6.94C2.42004 8.43 3.17004 9.75 4.33004 10.5C3.62004 10.5 2.96004 10.3 2.38004 10V10.03C2.38004 12.11 3.86004 13.85 5.82004 14.24C5.19077 14.4122 4.53013 14.4362 3.89004 14.31C4.16165 15.1625 4.69358 15.9084 5.41106 16.4429C6.12854 16.9775 6.99549 17.2737 7.89004 17.29C6.37367 18.4904 4.49404 19.1393 2.56004 19.13C2.22004 19.13 1.88004 19.11 1.54004 19.07C3.44004 20.29 5.70004 21 8.12004 21C16 21 20.33 14.46 20.33 8.79C20.33 8.6 20.33 8.42 20.32 8.23C21.16 7.63 21.88 6.87 22.46 6V6Z"
+                    fill="#404040"
+                  />
+                </svg>
+              </div>
+            </a>
+            <a href="https://instagram.com">
+              <div class="social-circle instagram-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 17.7383 21.3889 19.2135 20.3012 20.3012C19.2135 21.3889 17.7383 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 6.26174 2.61107 4.78649 3.69878 3.69878C4.78649 2.61107 6.26174 2 7.8 2M7.6 4C6.64522 4 5.72955 4.37928 5.05442 5.05442C4.37928 5.72955 4 6.64522 4 7.6V16.4C4 18.39 5.61 20 7.6 20H16.4C17.3548 20 18.2705 19.6207 18.9456 18.9456C19.6207 18.2705 20 17.3548 20 16.4V7.6C20 5.61 18.39 4 16.4 4H7.6ZM17.25 5.5C17.5815 5.5 17.8995 5.6317 18.1339 5.86612C18.3683 6.10054 18.5 6.41848 18.5 6.75C18.5 7.08152 18.3683 7.39946 18.1339 7.63388C17.8995 7.8683 17.5815 8 17.25 8C16.9185 8 16.6005 7.8683 16.3661 7.63388C16.1317 7.39946 16 7.08152 16 6.75C16 6.41848 16.1317 6.10054 16.3661 5.86612C16.6005 5.6317 16.9185 5.5 17.25 5.5ZM12 7C13.3261 7 14.5979 7.52678 15.5355 8.46447C16.4732 9.40215 17 10.6739 17 12C17 13.3261 16.4732 14.5979 15.5355 15.5355C14.5979 16.4732 13.3261 17 12 17C10.6739 17 9.40215 16.4732 8.46447 15.5355C7.52678 14.5979 7 13.3261 7 12C7 10.6739 7.52678 9.40215 8.46447 8.46447C9.40215 7.52678 10.6739 7 12 7M12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9Z"
+                    fill="#404040"
+                  />
+                </svg>
+              </div>
+            </a>
+            <a href="https://youtube.com"
+              ><div class="social-circle youtube-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 15L15.19 12L10 9V15ZM21.56 7.17C21.69 7.64 21.78 8.27 21.84 9.07C21.91 9.87 21.94 10.56 21.94 11.16L22 12C22 14.19 21.84 15.8 21.56 16.83C21.31 17.73 20.73 18.31 19.83 18.56C19.36 18.69 18.5 18.78 17.18 18.84C15.88 18.91 14.69 18.94 13.59 18.94L12 19C7.81 19 5.2 18.84 4.17 18.56C3.27 18.31 2.69 17.73 2.44 16.83C2.31 16.36 2.22 15.73 2.16 14.93C2.09 14.13 2.06 13.44 2.06 12.84L2 12C2 9.81 2.16 8.2 2.44 7.17C2.69 6.27 3.27 5.69 4.17 5.44C4.64 5.31 5.5 5.22 6.82 5.16C8.12 5.09 9.31 5.06 10.41 5.06L12 5C16.19 5 18.8 5.16 19.83 5.44C20.73 5.69 21.31 6.27 21.56 7.17V7.17Z"
+                    fill="#404040"
+                  />
+                </svg></div
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
