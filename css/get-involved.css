@@ -1,0 +1,136 @@
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/getinvolved.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-image img,
+.background-square {
+    width: 500px;
+    height: 400px;
+}
+
+.section-image img {
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.background-square {
+    background-color: var(--orange);
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+}
+
+
+.section-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 5rem 2rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section-text {
+    max-width: 400px;
+}
+
+.section-text h2,
+.section-text p {
+    margin-bottom: 2rem;
+}
+
+.volunteer-section {
+    background-color: var(--grey-50)
+}
+
+.image-flip {
+    order: -1;
+}
+
+.text-flip {
+    margin-left: 1rem;
+}
+
+@media (min-width: 850px) {
+    .banner {
+        background-position: center bottom 40%;
+    }
+
+}
+
+@media (min-width: 2000px) {
+    .banner {
+        height: 600px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .section-image img,
+    .background-square {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+
+@media (max-width: 850px) {
+
+    .banner h1 {
+        font-size: 32px;
+        width: 204px;
+        margin: 5%;
+    }
+
+    .banner {
+        height: 300px;
+    }
+
+
+    .image-flip {
+        order: 2;
+    }
+    
+    .text-flip {
+        margin-left: 0;
+    }
+    
+    .section-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        padding: 2rem 5%;
+    }
+
+    .section-text {
+        max-width: 100%;
+    }
+
+    .section-wrapper img {
+       width: 100%;
+        height: 215px;
+       object-fit: cover;
+       position: static;
+       
+    }
+
+
+    .section-image {
+        width: 100%;
+    }
+    
+
+    .background-square {
+        display: none;
+    }
+
+
+}
