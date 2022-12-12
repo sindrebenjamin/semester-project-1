@@ -322,6 +322,14 @@ footer {
     justify-content: space-between;
 }
 
+.social-circle path {
+    transition: 0.2s;
+}
+
+.social-circle:hover path {
+    fill: white;
+}
+
 .social-icons {
     gap: 0.5rem;
     fill: white;
