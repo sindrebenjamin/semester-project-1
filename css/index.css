@@ -90,7 +90,8 @@ h3 {
 
 /* INFO CARD */
 
-.events-description {
+.events-description,
+.exhibitions-description {
     margin-top: 1rem;
 }
 
