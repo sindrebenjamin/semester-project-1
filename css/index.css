@@ -207,7 +207,7 @@ h3 {
 /* EXPLORE TOGETHER */
 
 .blue-row-wrapper {
-    background-color: var(--green);
+    background-color: var(--blue);
     background-image: url(../images/repeating_space-opacity.png);
     background-size: 30rem;
 }
