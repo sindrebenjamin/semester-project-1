@@ -1,5 +1,7 @@
 # Community Science Museum
-![community science museum index](https://user-images.githubusercontent.com/111867312/215860515-807d4d6d-3d70-4e15-90ba-f82c0509b889.jpg "Community Science Museum homepage")
+
+![community science museum index](https://user-images.githubusercontent.com/111867312/222921600-f13a9b93-eec5-4f1e-b21c-46e1e1bd50d3.jpg "Community Science Museum homepage")
+
 
 ## Description
 For this project I had 4 weeks to design and code a website for the fictional science museum "Community Science Museum", putting everything I've learned this semester to the test.
